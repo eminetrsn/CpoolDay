@@ -1,7 +1,4 @@
-void print_char(char c)
-{
-    write(1, &c, 1);
-}
+void print_char(char c);
 
 void my_print_ascii(void)
 {
@@ -11,11 +8,7 @@ void my_print_ascii(void)
     }
 }
 
-//int main(void)
- //{
- //my_print_ascii();
-// return 0;
-// }
+
 
 
 
