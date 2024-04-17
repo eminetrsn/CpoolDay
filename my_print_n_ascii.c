@@ -1,7 +1,4 @@
-void print_char(char c)
-{
-    write(1, &c, 1);
-}
+void print_char(char c);
 
 void my_print_n_ascii(int howMany)
 {
